@@ -1,0 +1,124 @@
+body {
+    display: grid;
+    place-content: center;
+    min-width: 100vh;
+    background-color: white;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: rgb(145, 145, 145);
+    min-width: 100vh
+}
+
+.main_box {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 20px 30px 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 330px;
+}
+
+.main_box .header h2 {
+    font-size: 20px;
+}
+
+.main_box .profile img {
+    width: 70px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.main_box .profile {
+    display: grid;
+    grid-template-columns: 80px 150px;
+}
+
+.main_box .profile .profile_name p:nth-child(1) {
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 18px;
+}
+
+.main_box .profile .profile_name p:nth-last-child(1) {
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.main_box .main_bd{
+    margin-top: 25px;
+}
+
+.main_box .main_bd p {
+   font-size: 13px; 
+}
+
+.main_box .main_bd .no_see {
+    display: flex;
+    flex: row;
+}
+
+.main_box .main_bd .no_see span img {
+   width: 20px; 
+   margin-top: 1px;
+}
+
+.main_box .main_bd .no_see span p {
+    margin: 0px;
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+.main_box .main_bd .no_see span {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 30px 80px;
+    padding: 10px 150px 10px 10px;
+}
+
+.main_box .main_bd .no_see .no_see_img {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.main_box .footer_button {
+    display: grid;
+    grid-template-columns: 195px 100px;
+    margin-bottom: 20px;
+}   
+
+.main_box .footer_button .button_choice {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_box .footer_button .button_choice img {
+    width:  35px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.main_box .footer_button .button_choice p {
+    font-size: 15px;
+    margin-top: 22px;
+    margin-left: 5px;
+}
+
+.main_box .footer_button .button_continue button{
+    margin-top: 18px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: 1 px solid black;
+    border-radius: 5px;
+}
+
+.main_box .footer a{
+    margin-top: 50px;
+}
